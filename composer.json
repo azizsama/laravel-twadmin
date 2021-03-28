@@ -1,0 +1,26 @@
+{
+    "name": "azizsama/tw-admin",
+    "description": "TailwindCSS Admin Template for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aziz Febriyanto",
+            "email": "azizfebriyanto12@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AzizSama\\TWAdmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AzizSama\\TWAdmin\\TWAdminServiceProvider"
+            ]
+        }
+    }
+}
